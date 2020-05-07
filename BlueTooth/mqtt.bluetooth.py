@@ -6,8 +6,16 @@
 # Unsure if there are any other Blue Maetro products that it would work with.
 # David@andc.nz 15/12/2016
 
-
 # Credit jcs 6/8/2014 as basis
+
+#Forked from psyciknz/OpenHAB-Scripts
+#Tested on a Raspberry Pi Zero W Raspbian Buster with:
+#kernel 5.4.35+ #1314 Fri May 1 17:36:08 BST 2020 armv6l GNU/Linux
+#Python 3.7.3
+#bluez 5.50-1+rpt1
+#pybluez 0.23
+#jrobertomercadog:
+#THIS CODE IS A WORK-IN-PROGRESS: I haven't made python3 syntax modifications for this script, also a few changes at bluemaestroscan might be required to integrate it with this MQTT script.
 
 import bluemaestroscan  #specific bluemaestro tempo disc scanner
 import sys
